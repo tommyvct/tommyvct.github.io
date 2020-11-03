@@ -1,6 +1,7 @@
 ---
-
+title: Tommy Wu
 ---
+
 
 ## Education
 Bachelor of Science - Computer Science Major
