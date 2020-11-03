@@ -1,18 +1,12 @@
 # How to Host Your Resume on GitHub Pages Using Jekyll
 
 ## Audience
-Computer science students.
+Computer science students who interested in host their resume on GitHub Pages using Jekyll and Markdown. Knowledge of Git and Jekyll is not required.
 
 ## Purpose
 This README will describe the practical steps of how to host and format a resume using Markdown, GitHub Pages and Jekyll.
 
-### What is this thing? Why would anyone want it?
-Jekyll is a static website generator. It converts your Markdown files into static `.html` files against the theme you choose. It has no server-side application dependencies, no databases or other software need to be installed. 
-
-It greatly simplifies the process of producing and online publishing documentation, facilitating technical writing.
-
-### How does this product fit into a broader ecosystem, if at all? Does it have any dependencies?
-Jekyll generates static sites, which is essentially a bunch of `.html` files. It is so simple and lightweight that it fits anywhere you need. It doesn't have any dependency other than a web server like Apache.
+This README also briefly introduces some principles of technical communication.
 
 ## Prerequisites
 1. GitHub Flavoured Markdown
@@ -25,8 +19,11 @@ Jekyll generates static sites, which is essentially a bunch of `.html` files. It
 
 ### Create a GitHub repository  
 A GitHub Repository is where your resume Markdown file resides.  
+
+> Github utilizes Git, which is a distributed version control system. It enables easy cooperation between different people who work on the same thing. It may not be obvious on this instance of a personal resume, but it shines when multiple people writing documentation together.
+
 1. Start Creating a new repository  
-    On the upper-right corner of GitHub, click the `+` icon, then click `New repository`.  
+    On the upper-right corner of GitHub, click the `+` icon, then click `New repository`. It will look like this:  
     ![](images/newRepoMenu.png)  
 2. Name your repository  
     Name it with your GitHub username followed by the domain of GitHub Pages(`.github.io`).
@@ -38,16 +35,16 @@ A GitHub Repository is where your resume Markdown file resides.
     Then click the green `Create repository` button. This will finish the creatiion of your resume repository.
 
 ### Configure this repository for GitHub Pages  
-Once we have the repository, you should be able to see the following screen:
+Once we have the repository, you should be able to see the following screen looks like this:  
 ![](images/configureStart.png)  
 1. Upload your resume  
     Rename your resume as `index.md` first.  
     Click on `Add file`, then `Upload files`.  
-    Drag in your resume as indicated, make sure your file is uploaded:
+    Drag in your resume as indicated, make sure your file is uploaded. It will look like this:  
     ![](images/uploadResume.png)  
     Then click the green `Commit changes` button. This will add your resume to the repository.
 2. Bring GitHub Pages up and running  
-    Click on the `Settings` tab, then scroll down to the `GitHub Pages` section:  
+    Click on the `Settings` tab, then scroll down to the `GitHub Pages` section. It will look like this:  
     ![](images/githubPagesSettings.png)  
     As indicated, the website is up and running now.
     Click on the link of your website to have a look.
@@ -56,14 +53,16 @@ Once we have the repository, you should be able to see the following screen:
     **It works**! But it looks very basic and some fine-tuning is needed. 
 
 3. Choose a theme  
-    Click on the `Choose a theme` button on the previous step, a list of available themes and examples will be shown:
+    > Jekyll itself is a ruby program that converts Markdown documents into `.html` webpages against a set of template, called a "theme".  
+
+    Click on the `Choose a theme` button on the previous step, a list of available themes and examples will be shown like this:  
     ![](images/themeChooser.png)  
     Choose the one you like and click on `Select theme`.
 
     > GitHub Pages may bring you to a `README.md` editor after you selected a theme. This file is irrelevant and will not be used by the website. However, as you may already see, it contains helpful information on how to tweak the theme. It is recommended to leave it as-is for future reference.
 
     We'll be using the `Slate` theme from now on. 
-    After choosing a theme, the website will look like this:   
+    After choosing a theme, the website will look like this:  
     ![](images/slateVanilla.png)  
     
 
@@ -95,7 +94,7 @@ Congratulations! You've successfully hosted your resume on GitHub Pages!
 - [*Modern Technical Writing* by Andrew Etter](https://www.amazon.ca/gp/product/B01A2QL9SS/ref=ppx_yo_dt_b_d_asin_title_o05?ie=UTF8&psc=1)
 
 ## Authors and Acknowledgements
-Tommy Wu
+Tommy Wu  
 [Slate theme](https://github.com/pages-themes/slate)
 
 
@@ -112,3 +111,10 @@ A word processor usually is commercial software that cost quite a fortune, can o
 1. GitHub Pages will take from a few seconds to a few minutes to deploy your content.
 2. Check GitHub Pages settings mentioned in step 2 of [Configure this repository for GitHub Pages](#Configure-this-repository-for-GitHub-Pages). Is the source pointed to the right branch and directory? 
 3. Your tweaks to the `_config.yml` and `_layouts/default.html` introduces some syntax errors that Jekyll cannot overcome. Check the file you modified and make sure they are 100% correct. 
+
+### What is Markdown and Jekyll? Why would anyone want it?
+Markdown is a simple markup language that is easy to learn, easy to use and human-readable even in its raw format.
+
+Jekyll is a static website generator. It converts your Markdown files into static `.html` files against the theme you choose. It has no server-side application dependencies, no databases or other software need to be installed. 
+
+The combination of both greatly simplifies the process of producing and online publishing documentation, facilitating technical writing.
