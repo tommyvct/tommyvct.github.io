@@ -33,11 +33,11 @@ Expected December 2020
 
 - Fixed 300+ Computers
 - Reinstall Windows & Linux & Replace faulty hardware
-- Identify and inform ongoing security hazard & threat(thumbdrive-transmitted computer virus, ransomware prevention, etc)
+- Identify and inform ongoing security hazard & threat(thumb drive-transmitted computer virus, ransomware prevention, etc)
 
 ## Projects
 ### [Figure Hub](https://github.com/tommyvct/FigureHub_3350)
-- A personal budget-balance system, aggregation of what, when, how the money was spend on
+- A personal budget-balance system, aggregation of what, when, how the money was spent on
 - Implemented most of the GUI and data structure design
 
 ### Quad-boot computer
@@ -45,7 +45,7 @@ Expected December 2020
 
 ### [ZeroConfTransfer](https://github.com/tommyvct/ZeroConfTransfer)
 - Transfer files or strings over the local network
-- Better than a thumbdrive
+- Better than a thumb drive
 
 ## Events
 ### ACM Programming Contests at U of M in 2019
