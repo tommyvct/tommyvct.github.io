@@ -25,7 +25,7 @@ University of Manitoba
 ## Experience & Volunteering
 ### Windows ARM64 Port Volunteer
 *Current*  
-Help ported multiple opensource software, including PPSSPP, OBS Studio, Git for Windows.
+- Help ported multiple opensource software, including PPSSPP, OBS Studio, Git for Windows.
 
 ### Student Technician
 *Student Residence, University of Manitoba*\
