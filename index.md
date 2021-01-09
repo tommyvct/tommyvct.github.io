@@ -27,6 +27,10 @@ University of Manitoba
 *Current*  
 - Help ported multiple opensource software, including PPSSPP, OBS Studio, Git for Windows.
 
+### Private & Volunteer Tutor
+*Current*  
+- Help my friend and others getting started and keep up on first year of computer science topic.
+
 ### Student Technician
 *Student Residence, University of Manitoba*\
 *September 2018 - March 2020*
