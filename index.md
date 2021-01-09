@@ -1,7 +1,6 @@
 ## Education
-Bachelor of Science - Computer Science Major
-University of Manitoba
-Expected December 2020
+Bachelor of Science - Computer Science Major  
+University of Manitoba  
 
 ## Programming skills
 ### Languages
@@ -12,8 +11,11 @@ Expected December 2020
 - SQL
 
 ### Tools and Technologies
+- C/C++, Java, C#, Python
 - Git/GitHub/GitLab
 - Android Studio
+- CMake
+- Visual Studio
 - Linux
 - Linux Logical Volume Manager(LVM)
 - Windows Linux Subsystem(WSL)
@@ -21,6 +23,10 @@ Expected December 2020
 - `grub` bootloader
 
 ## Experience & Volunteering
+*Current*
+### Windows ARM64 Port Volunteer
+Help ported multiple opensource software, including PPSSPP, OBS Studio, Git for Windows.
+
 ### Student Technician
 *Student Residence, University of Manitoba*\
 *September 2018 - March 2020*
