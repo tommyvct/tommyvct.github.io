@@ -23,8 +23,8 @@ University of Manitoba
 - `grub` bootloader
 
 ## Experience & Volunteering
-*Current*
 ### Windows ARM64 Port Volunteer
+*Current*
 Help ported multiple opensource software, including PPSSPP, OBS Studio, Git for Windows.
 
 ### Student Technician
